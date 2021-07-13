@@ -11,8 +11,12 @@ class Tasks {
   }
 
   setTask() {
-    this.task = {task:this.description , complete:this.completed , number:this.index};
+    this.task = {description:this.description , completed:this.completed , index:this.index};
     this.list.push(this.task);
+  }
+
+  displaytask() {
+    
   }
 }
 
