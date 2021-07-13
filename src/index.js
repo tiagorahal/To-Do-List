@@ -6,12 +6,13 @@ class Tasks {
     this.description = String(description);
     this.completed = Boolean(completed);
     this.index = Number(index)
-    this.task = {task:this.description , complete:this.completed , number:this.index};
+    this.task = {};
     this.list = [];
   }
 
-  setList() {
-
+  setTask() {
+    this.task = {task:this.description , complete:this.completed , number:this.index};
+    this.list.push(this.task);
   }
 }
 

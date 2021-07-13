@@ -1,3 +1,21 @@
 body {
   background-color: bisque;
 }
+
+#list-body {
+  border: solid black 2px;
+  padding: 5% 0;
+  text-align: center;
+  max-width: 80%;
+  margin: auto;
+}
+
+#list-main {
+  border: solid red 2px;
+  padding: 1% 0;
+  text-align: center;
+}
+
+.list-item {
+ list-style-type: none;
+}
