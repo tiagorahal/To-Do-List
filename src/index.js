@@ -1,33 +1,14 @@
-import _ from 'lodash';
 import './style.css';
 
-class Tasks {
-  constructor(description, completed, index) {
-    this.description = String(description);
-    this.completed = Boolean(completed);
-    this.index = Number(index)
-    this.task = {};
-    this.list = [];
-  }
+const task = {
+  description: '',
+  completed: false,
+  index: undefined,
+};
 
-  setTask() {
-    this.task = {description:this.description , completed:this.completed , index:this.index};
-    this.list.push(this.task);
-  }
-
-  displaytask() {
-    
-  }
+function addTasks() {
+  console.log('hello');
+  console.log(task);
 }
 
-function component() {
-  const element = document.createElement('div');
-
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.classList.add('hello');
-
-  return element;
-}
-
-document.body.appendChild(component());
+document.getElementById('input-button').addEventListener("click", addTasks);
