@@ -1,0 +1,27 @@
+{
+  "name": "To-Do-List",
+  "version": "1.0.0",
+  "description": "This is a To do list created using all the concepts teached at Microverse",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiagorahal/To-Do-List.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiagorahal/To-Do-List/issues"
+  },
+  "homepage": "https://github.com/tiagorahal/To-Do-List#readme",
+  "devDependencies": {
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
