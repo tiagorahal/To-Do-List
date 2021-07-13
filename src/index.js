@@ -1,6 +1,20 @@
 import _ from 'lodash';
 import './style.css';
 
+class Tasks {
+  constructor(description, completed, index) {
+    this.description = String(description);
+    this.completed = Boolean(completed);
+    this.index = Number(index)
+    this.task = {task:this.description , complete:this.completed , number:this.index};
+    this.list = [];
+  }
+
+  setList() {
+
+  }
+}
+
 function component() {
   const element = document.createElement('div');
 
