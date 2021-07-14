@@ -6,6 +6,24 @@
     <title>Wbpack Exercise</title>
 </head>
 <body>
-    <h1>Hello webpack!</h1>
+    <div id="list-body">
+        <div id="list-main">
+            <div id="list-top">
+                <p id="list-top-title">Today's To Do</p>
+                <a href="#"><i class="fas fa-sync"></i></a>
+            </div>
+            <div id="list-placeholder">
+                <input id="list-placeholder-input" type="text" placeholder="Add..." required>
+                <a id="input-button" class="col-1" href="#"><i class="fas fa-arrow-alt-circle-down"></i></a>
+            </div>
+
+            <!-- ITEMS INSERTED HERE -->
+            <div  id="list-items"></div>
+
+            <div id="list-bottom">
+                <a id="bottom-button" href="#">Clear all tasks</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

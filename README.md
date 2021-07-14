@@ -3,7 +3,7 @@ This is a To do list created using all the concepts teached at Microverse
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-![screenshot](---------------------------------)
+![screenshot](screenshot.png)
 
 ## Built With
 
@@ -13,7 +13,7 @@ This is a To do list created using all the concepts teached at Microverse
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/jacobo12montes/AwesomeBooksJS/add/books/index.html?name-book=title&author-book=author)
+[Live Demo Link](https://tiagorahal.github.io/To-Do-List/)
 
 
 ## Getting started
@@ -37,10 +37,8 @@ Run the following commands in the terminal in the next order:
 ### To run this project in your local environment
 
 - Step 1:
-  Open index.html file in a browser.
-
-- Step 2:
-  Try it on!
+  run npm install
+  run npm run start
 
 
 ### How to use the aplication
