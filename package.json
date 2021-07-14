@@ -23,6 +23,7 @@
   "homepage": "https://github.com/tiagorahal/To-Do-List#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
     "css-loader": "^5.2.7",
     "eslint": "^7.30.0",
     "eslint-config-airbnb-base": "^14.2.1",
