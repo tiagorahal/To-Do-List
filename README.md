@@ -41,16 +41,6 @@ Run the following commands in the terminal in the next order:
   run npm run start
 
 
-### How to use the aplication
-
-- Step 1:
-  -----------
-
-- Step 2:
-  ------------------
-
-
-
 ## Author
 
 
