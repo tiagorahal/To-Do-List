@@ -4,13 +4,7 @@ import '@fortawesome/fontawesome-free/js/solid.js';
 import '@fortawesome/fontawesome-free/js/regular.js';
 import '@fortawesome/fontawesome-free/js/brands.js';
 
-let task = {
-  description: '',
-  completed: false,
-  index: undefined,
-};
-
-let list = [
+const list = [
   {
     description: 'testingOne',
     completed: true,
@@ -29,9 +23,9 @@ let list = [
 ];
 
 function displayTask() {
- let sortedList = list.sort((a, b) => a.index - b.index);
-  for(let i = 0 ; i <= list.length ; i++) {
-    document.getElementById('list-items').insertAdjacentHTML('beforeend', `<p class="item-index">${sortedList[i].index}&nbsp;${sortedList[i].description}&nbsp;${sortedList[i].completed}</p>`);
+ const sortedList = list.sort((a, b) => a.index - b.index);
+  for (let i = 0; i <= list.length; i += 1) {
+    document.getElementById('list-items').insertAdjacentHTML('beforeend', `<div class="item-div"><input type="checkbox" id="item-${i}"><p class="task-description">${sortedList[i].description}</p><a href="#"><i class="fas fa-ellipsis-v"></i></a></div>`);
   }
 }
 

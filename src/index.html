@@ -9,19 +9,19 @@
     <div id="list-body">
         <div id="list-main">
             <div id="list-top">
-                <h5>Today's To Do</h3>
-                <a href="#">button here</i></a>
+                <p id="list-top-title">Today's To Do</p>
+                <a href="#"><i class="fas fa-sync"></i></a>
             </div>
             <div id="list-placeholder">
-                <input id="list-placeholder-input" type="text" placeholder="Add to your list..." required>
-                <a id="input-button" class="col-1" href="#">button here</i></a>
+                <input id="list-placeholder-input" type="text" placeholder="Add..." minlength="10px" height="15px" required>
+                <a id="input-button" class="col-1" href="#"><i class="fas fa-arrow-alt-circle-down"></i></a>
             </div>
 
             <!-- ITEMS INSERTED HERE -->
-            <div  onload="displayTask()" id="list-items"></div>
+            <div  id="list-items"></div>
 
             <div id="list-bottom">
-                <a href="#">Clear all tasks</a>
+                <a id="bottom-button" href="#">Clear all tasks</a>
             </div>
         </div>
     </div>

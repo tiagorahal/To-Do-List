@@ -1,29 +1,54 @@
-body {
-  background-color: bisque;
-}
-
 #list-body {
-  border: solid red 2px;
   padding: 5% 0;
   text-align: center;
-  max-width: 80%;
+  max-width: 90%;
   margin: auto;
 }
 
 #list-main {
   border: solid black 2px;
-  
   text-align: center;
   width: 95%;
   margin: auto;
 }
 
 #list-top {
-  border: solid black 1px;
+  border: solid rgba(182, 182, 182, 0.733) 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+
+#list-top-title {
+  font-size: 1.3rem;
 }
 
 #list-bottom {
-  border: solid black 1px;
+  border: solid rgba(182, 182, 182, 0.733) 1px;
+}
+
+#list-items {
+  border: solid rgba(182, 182, 182, 0.733) 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.item-div {
+  padding: 0 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-description {
+  font-size: 1.4em;
 }
 
 #list-items {
@@ -31,13 +56,26 @@ body {
 }
 
 #list-placeholder {
-  background-color: white;
+  border: solid rgba(182, 182, 182, 0.733) 1px;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #list-placeholder-input {
   border: none;
+  font-size: 1.2rem;
+  width: 70%;
 }
 
-#input-button {
+#bottom-button {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: black;
+}
 
+#list-bottom {
+  padding: 15px 0;
 }
