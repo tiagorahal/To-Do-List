@@ -3,7 +3,7 @@ This is a To do list created using all the concepts teached at Microverse
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-![screenshot](---------------------------------)
+![screenshot](screenshot.png)
 
 ## Built With
 
