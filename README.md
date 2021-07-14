@@ -33,6 +33,7 @@ Run the following commands in the terminal in the next order:
 ### To run this project in your local environment
 
 - Step 1:
+
   run npm install
   
   run npm run start
