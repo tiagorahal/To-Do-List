@@ -37,10 +37,8 @@ Run the following commands in the terminal in the next order:
 ### To run this project in your local environment
 
 - Step 1:
-  Open index.html file in a browser.
-
-- Step 2:
-  Try it on!
+  run npm install
+  run npm run start
 
 
 ### How to use the aplication
