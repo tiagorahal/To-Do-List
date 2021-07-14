@@ -11,10 +11,6 @@ This is a To do list created using all the concepts teached at Microverse
 - CSS
 - JavaScript
 
-## Live Demo
-
-[Live Demo Link](https://tiagorahal.github.io/To-Do-List/)
-
 
 ## Getting started
 
