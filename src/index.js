@@ -19,11 +19,11 @@ const list = [
     description: 'testingTres',
     completed: false,
     index: 2,
-  }
+  },
 ];
 
 function displayTask() {
- const sortedList = list.sort((a, b) => a.index - b.index);
+  const sortedList = list.sort((a, b) => a.index - b.index);
   for (let i = 0; i <= list.length; i += 1) {
     document.getElementById('list-items').insertAdjacentHTML('beforeend', `<div class="item-div"><input type="checkbox" id="item-${i}"><p class="task-description">${sortedList[i].description}</p><a href="#"><i class="fas fa-ellipsis-v"></i></a></div>`);
   }
