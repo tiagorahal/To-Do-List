@@ -1,7 +1,7 @@
 #list-body {
   padding: 5% 0;
   text-align: center;
-  max-width: 90%;
+  max-width: 600px;
   margin: auto;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .item-div {
-  padding: 0 5%;
+  padding: 0;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -45,7 +45,8 @@
 }
 
 .task-description {
-  font-size: 1.4em;
+  font-size: 1.1em;
+  padding-left: 5px;
 }
 
 #list-placeholder {
@@ -67,9 +68,17 @@
   font-size: 1.3rem;
   text-decoration: none;
   color: black;
+  background-color: solid black 1px;
 }
 
 #list-bottom {
   padding: 15px 0;
-  border: solid rgba(182, 182, 182, 0.733) 1px;
+  background-color: rgba(182, 182, 182, 0.733);
+}
+
+.start-task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
