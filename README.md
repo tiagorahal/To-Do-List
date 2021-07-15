@@ -34,8 +34,6 @@ Run the following commands in the terminal in the next order:
 
 - Step 1:
 
-  run npm install --save @fortawesome/fontawesome-free
-
   run npm install
   
   run npm run start
