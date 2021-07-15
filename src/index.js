@@ -27,7 +27,7 @@ const list = [
 function displayTask() {
   const sortedList = list.sort((a, b) => a.index - b.index);
   for (let i = 0; i < sortedList.length; i += 1) {
-    document.getElementById('list-items').insertAdjacentHTML('beforeend', `<div draggable="true" class="item-div"><div class="start-task"><input type="checkbox" id="item-${i}"><p class="task-description">${sortedList[i].description}</p></div><a class="button-drag" href="#"><i class="fas fa-ellipsis-v"></i></a></div>`);
+    document.getElementById('list-items').insertAdjacentHTML('beforeend', `<div draggable="true" id="box-${i}" class="item-div"><div class="start-task"><input type="checkbox" id="item-${i}"><p class="task-description">${sortedList[i].description}</p></div><a class="button-drag" href="#"><i class="fas fa-ellipsis-v"></i></a></div>`);
     console.log(sortedList[i].description);
   }
 }

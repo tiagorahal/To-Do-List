@@ -1,14 +1,21 @@
+function dragstart() {
+  console.log('DRAG START!');
+}
+
+function drag() {
+  console.log('DRAGGING!');
+}
+
+function dragend() {
+  console.log('DRAG END!');
+}
+
 export default function callDrag() {
-  const draggables = document.querySelectorAll('.item-div');
-  const container = document.getElementById('list-items');
+  const draggable = document.querySelectorAll('.item-div');
 
-  draggables.forEach((draggable) => {
-    draggable.addEventListener('dragstart', () => {
-      draggable.classList.add('dragging');
-    });
-
-    draggable.addEventListener('dragend', () => {
-      draggable.classList.remove('dragging');
-    });
+  draggable.forEach((item) => {
+    item.addEventListener('dragstart', dragstart);
+    item.addEventListener('drag', drag);
+    item.addEventListener('dragend', dragend);
   });
 }
