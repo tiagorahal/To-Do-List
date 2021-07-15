@@ -1,5 +1,5 @@
-import metDrag from '../backend/dragndrop';
-import metStatus from '../backend/status';
+import metDrag from '../backend/dragndrop.js';
+import metStatus from '../backend/status.js';
 
 const propListen = {
   container: document.getElementsByTagName('ul')[0],

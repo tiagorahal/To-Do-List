@@ -1,4 +1,4 @@
-import metPopulator from '../frontend/updater';
+import metPopulator from '../frontend/updater.js';
 
 const propDrag = {
   items: document.getElementsByTagName('li'),
