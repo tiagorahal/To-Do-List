@@ -10,23 +10,7 @@ import {
   clearCompletedTasks, removeAllIcon, removeAllItems, removeCompletedItem, removeSelectedItem,
 } from './modules/remove.js';
 
-let toDoTasks = [
-  {
-    description: 'Wash the dishes',
-    completed: false,
-    index: 0,
-  },
-  {
-    description: 'Brush your teeth',
-    completed: true,
-    index: 1,
-  },
-  {
-    description: 'Wake up early',
-    completed: false,
-    index: 2,
-  },
-];
+let toDoTasks = [];
 
 const displayTasks = () => {
   listContainer.innerHTML = '';
