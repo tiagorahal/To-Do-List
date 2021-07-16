@@ -12,18 +12,18 @@ import {
 
 let toDoTasks = [
   {
-    description: 'Wash the dishes',
+    description: 'Make eggplant lasagna.',
     completed: false,
     index: 0,
   },
   {
-    description: 'Brush your teeth',
+    description: 'Finish the project',
     completed: true,
     index: 1,
   },
   {
-    description: 'Wake up early',
-    completed: false,
+    description: 'Have a good night of sleep',
+    completed: true,
     index: 2,
   },
 ];
